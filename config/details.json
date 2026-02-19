@@ -35,32 +35,14 @@
       }
     ],
     "photos": [
-      {
-        "src": "assets/slide1.png",
-        "label": ""
-      },
-      {
-        "src": "assets/slide2.png",
-        "label": ""
-      },
-      {
-        "src": "assets/slide3.png",
-        "label": ""
-      },
-      {
-        "src": "assets/slide4.png",
-        "label": ""
-      },
-      {
-        "src": "assets/slide5.png",
-        "label": ""
-      },
-      {
-        "src": "assets/slide6.png",
-        "label": ""
-      }
+      "assets/slide1.png",
+      "assets/slide2.png",
+      "assets/slide3.png",
+      "assets/slide4.png",
+      "assets/slide5.png",
+      "assets/slide6.png"
     ],
-        "assets": {
+    "assets": {
       "floralTopRight": "assets/floral-top-right.png",
       "floralBottomLeft": "assets/floral-bottom-left.png"
     }
