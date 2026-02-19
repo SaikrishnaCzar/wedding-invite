@@ -257,14 +257,14 @@ body{
 
 .eventTitle{
   margin:0;
-  font-size: 18px;
+  font-size: 36px;
   font-weight: 700;
 }
 
 .meta{
   margin-top: 10px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 24px;
   display:grid;
   gap: 6px;
 }
@@ -286,7 +286,7 @@ body{
   background:#fff;
   color: var(--fg);
   text-decoration:none;
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 700;
 }
 
