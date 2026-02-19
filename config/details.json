@@ -13,7 +13,7 @@
         "title": "Engagement",
         "datetime": "Sun, 22 Feb 2026 • 10:30 AM",
         "venue": "Ganesh Nagar, Siddipet",
-        "image": "assets/engagement.png",
+        "image": "assets/Engagement.png",
         "mapUrl": "https://maps.google.com",
         "liveUrl": "https://youtube.com"
       },
@@ -29,7 +29,7 @@
         "title": "Reception",
         "datetime": "Sat, 07 March 2026 • 8:30 PM",
         "venue": "Hyderabad",
-        "image": "assets/reception.png",
+        "image": "assets/Reception.png",
         "mapUrl": "https://maps.google.com",
         "liveUrl": "https://youtube.com"
       }
