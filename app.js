@@ -45,18 +45,23 @@
   
     // Photos
     const photosTrack = document.getElementById("photosTrack");
-    (data.photos ?? []).forEach(url => {
+
+    (data.photos ?? []).forEach(photo => {
       const slide = document.createElement("div");
       slide.className = "slide";
+    
       slide.innerHTML = `
         <div class="photoWrap">
-          <img class="photo" src="${url}" alt="Photo" loading="lazy" />
+          <img class="photo" src="${photo.src}" alt="${photo.label}" loading="lazy" />
+        </div>
+        <div class="photoLabel">
+          ${photo.label}
         </div>
       `;
+    
       photosTrack.appendChild(slide);
     });
-  
-    // Carousel controls
+        // Carousel controls
     document.querySelectorAll(".carousel").forEach(setupCarousel);
   })();
   
