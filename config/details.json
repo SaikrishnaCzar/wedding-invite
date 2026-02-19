@@ -1,0 +1,50 @@
+{
+    "couple": {
+      "groom": "Groom",
+      "bride": "Bride"
+    },
+    "hero": {
+      "topLine": "Together with their families",
+      "bottomLine": "Invite you to join them",
+      "dateText": "28/11/26"
+    },
+    "events": [
+      {
+        "title": "Engagement",
+        "datetime": "Sat, 28 Nov 2026 • 6:00 PM",
+        "venue": "Venue Name, City",
+        "image": "assets/engagement.png",
+        "mapUrl": "https://maps.google.com",
+        "liveUrl": "https://youtube.com"
+      },
+      {
+        "title": "Wedding",
+        "datetime": "Sun, 29 Nov 2026 • 9:30 AM",
+        "venue": "Venue Name, City",
+        "image": "assets/Marriage.png",
+        "mapUrl": "https://maps.google.com",
+        "liveUrl": "https://youtube.com"
+      },
+      {
+        "title": "Reception",
+        "datetime": "Sat, 07 March 2026 • 8:30 PM",
+        "venue": "Hyderabad",
+        "image": "assets/reception.png",
+        "mapUrl": "https://maps.google.com",
+        "liveUrl": "https://youtube.com"
+      }
+    ],
+    "photos": [
+      "assets/slide1.png",
+      "assets/slide2.png",
+      "assets/slide3.png",
+      "assets/slide4.png",
+      "assets/slide5.png",
+      "assets/slide6.png"
+    ],
+    "assets": {
+      "floralTopRight": "assets/floral-top-right.png",
+      "floralBottomLeft": "assets/floral-bottom-left.png"
+    }
+  }
+  

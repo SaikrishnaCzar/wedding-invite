@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Wedding Invite</title>
+
+  <!-- Elegant fonts (script + clean sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Allura&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main class="page">
+    <div class="layout">
+
+      <!-- SECTION 1: Hero like the sample -->
+      <section class="hero" aria-label="Invitation">
+        <div class="hero-bg">
+          <img class="floral floral-tr" id="floralTR" alt="" />
+          <img class="floral floral-bl" id="floralBL" alt="" />
+
+          <div class="hero-content">
+            <div class="hero-top" id="heroTopLine">Together with their families</div>
+
+            <div class="hero-names">
+              <div class="hero-name" id="brideName">Bride</div>
+              <div class="hero-amp">&amp;</div>
+              <div class="hero-name" id="groomName">Groom</div>
+            </div>
+
+            <div class="hero-bottom" id="heroBottomLine">Invite you to join them</div>
+            <div class="hero-date" id="heroDate">28/11/26</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: Events -->
+      <section class="col" aria-label="Events">
+        <div class="carousel" data-carousel="events">
+          <button class="navBtn navPrev" aria-label="Previous">‹</button>
+          <button class="navBtn navNext" aria-label="Next">›</button>
+          <div class="track" id="eventsTrack"></div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: Photos -->
+      <section class="col" aria-label="Photos">
+        <div class="carousel" data-carousel="photos">
+          <button class="navBtn navPrev" aria-label="Previous">‹</button>
+          <button class="navBtn navNext" aria-label="Next">›</button>
+          <div class="track" id="photosTrack"></div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
