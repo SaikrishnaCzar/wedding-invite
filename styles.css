@@ -36,11 +36,11 @@ body{
 /* FULL HEIGHT WRAPPER */
 .page{
   width: 100%;
-  height: 100vh;          /* critical */
+  min-height: 100vh;
+  min-height: 100svh;
   margin: 0;
-  padding: 24px;          /* small breathing room; set 0 for full-bleed */
+  padding: 24px;
 }
-
 /* 3 columns on desktop, full height */
 .layout{
   height: 100%;
