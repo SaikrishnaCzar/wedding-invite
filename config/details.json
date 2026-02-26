@@ -10,14 +10,6 @@
     },
     "events": [
       {
-        "title": "Engagement",
-        "datetime": "Sun, 22 Feb 2026 • 10:30 AM",
-        "venue": "Ganesh Nagar, Siddipet",
-        "image": "assets/Engagement.png",
-        "mapUrl": "https://maps.app.goo.gl/waLvqdSK6CbHw1Dv9",
-        "liveUrl": "https://youtube.com"
-      },
-      {
         "title": "Wedding",
         "datetime": "Thursday, 05 March 2026 • 11:08 AM",
         "venue": "TTD Kalyana Mandapam, Siddipet",
